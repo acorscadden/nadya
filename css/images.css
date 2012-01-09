@@ -1,0 +1,11 @@
+div.image_container{
+  text-align: center;
+}
+div.img {
+  margin: 3px;
+  display: inline-block;
+}
+
+div.img img {
+  
+}

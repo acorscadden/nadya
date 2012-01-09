@@ -3,22 +3,14 @@
 <!-- Start Advanced Gallery Html Containers -->				
 <div id="content">
     <div class="center">
-        <div id="left">
-            <img src="/images/img1.jpg" />
-        </div>
-        <div id="right">
-            <h2>A Canadian Triple Threat</h2>
-            <div class="list">
-                <span>Height</span> 5'6"<br/>
-                <span>Hair Colour</span> Blonde<br/>
-                <span>Eye Colour</span> Hazel<br/>
-                <span>Vocal Range</span> Soprano<br/>
-            </div>
-        </div>
-        <h2>Videos</h2>
-        <iframe width="640" height="360" src="http://www.youtube.com/embed/aWwSKanqka8" frameborder="0" allowfullscreen></iframe>
-        <br /><br />
-        <iframe width="640" height="360" src="http://www.youtube.com/embed/ElHCyw_97Bk" frameborder="0" allowfullscreen></iframe>
+      <h1>Nadya Corscadden </h2>
+      <h2>Canadian Triple Threat Talent</h2>
+      <h3>Singer ~ Dancer ~ Actress</h3>
+      <img class="home" src="./images/home.jpg" />
+      <br>
+      <h2>Demo Reel</h2>
+          <iframe class="video" src="http://player.vimeo.com/video/34646642?title=0&amp;byline=0&amp;portrait=0" width="601" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
 	</div>
 </div>
 <?php include('footer.php'); ?>

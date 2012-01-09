@@ -1,6 +1,6 @@
 body{
 	color: #777;
-    background: #D4D3D9 url(/images/texture.png) fixed;
+  background: #D4D3D9 url(../images/texture.png) fixed;
 }
 a{
 	color: #78654D;
@@ -10,10 +10,10 @@ nav a {
     float: left;
     font-family: Times New Roman;
     color: #444;
-    font-size: 24px;
+    font-size: 20px;
     width: 189px;
-    height: 46px;
-    line-height: 46px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -39,15 +39,11 @@ div.list span {
 
 nav {
     border-bottom: 1px solid #CCC;
-    height:50px;
+    height:30px;
 }
 
 nav ul, nav li {
     list-style: none;
-}
-
-h2 {
-	color: #333;
 }
 div#page {
 	background-color: #fff;
@@ -61,7 +57,7 @@ div#footer {
 div#content {
     position: relative;
     padding: 80px;
-    padding-top: 40px;
+    padding-top: 15px;
 }
 div.caption-container {
     margin-top:60px;

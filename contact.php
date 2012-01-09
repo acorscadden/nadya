@@ -9,8 +9,7 @@
             <input type="text" name="name" placeholder="full name" title="enter your name" class="required">
             <label for="email">e-mail</label>
             <input type="email" name="email" placeholder="yourname@domain.com" title="enter your e-mail address" class="required email">
-            <label for="website">website</label>
-            <input type="url" name="url" placeholder="http://">
+
             <label for="message">question/comment</label>
             <textarea name="message"></textarea>
             <input type="submit" name="submit" class="button" id="submit" value="send message" />

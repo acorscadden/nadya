@@ -19,24 +19,38 @@ a:focus, a:hover, a:active {
 p, li {
 	line-height: 1.8em;
 }
-h1, h2 {
+h1, h2, h3 {
 	font-family: "Trebuchet MS", Verdana, sans-serif;
-	margin: 0 0 10px 0;
+	margin: 0 auto 10px 0;
+	text-align: center;
 	letter-spacing:-1px;
+	color: #333;
 }
 h1 {
 	padding: 0;
-	font-size: 3em;
-	color: #333;
+	font-size: 4em;
 }
 h2 {
 	padding-top: 10px;
-	font-size:2em;
+	font-size:2.3em;
+}
+h3{
+  font-size:2em;
 }
 pre {
 	font-size: 1.2em;
 	line-height: 1.2em;
 	overflow-x: auto;
+}
+img.home{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 div#page {
 	width: 900px;
@@ -48,7 +62,12 @@ div#page {
 	border-width: medium 1px 1px;
 }
 div#container {
-	padding: 20px;
+	padding: 10px 20px 20px 20px;
+}
+div.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 div#ads {
 	clear: both;
@@ -61,3 +80,5 @@ div#footer {
 	padding: 20px 0 40px;
 	text-align: center;
 }
+
+
